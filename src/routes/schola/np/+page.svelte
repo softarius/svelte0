@@ -9,6 +9,7 @@
 		<td>{item.code}</td>
 		<td><a href="/schola/np/{item.code}">{item.name}</a></td>
 		<td>{item.profile}</td>
+		<td>{item.edu_level}</td>
 	</tr>
 {/snippet}
 
@@ -18,6 +19,7 @@
 			<th>Код</th>
 			<th>Направление</th>
 			<th>Специализация</th>
+			<th>Уровень образования</th>
 		</tr>
 	</thead>
 	<tbody>
