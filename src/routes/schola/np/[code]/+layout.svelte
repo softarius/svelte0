@@ -7,7 +7,7 @@
 		{@render children()}
 	</main>
 	<aside>
-		<h2>Другие направления:</h2>
+		<h2>Все направления:</h2>
 		<ul>
 			{#each data.nps as { code, name }}
 				<li>

@@ -3,5 +3,5 @@
 </script>
 
 <a href="./">Все направления</a>
-<h1>{data.post.code} {data.post.name}</h1>
-<div>{@html data.post.PROFILE}</div>
+<h1>{data.np.code} {data.np.name} (<code>{data.np.short_name}</code>)</h1>
+<div>{@html data.np.profile}</div>
