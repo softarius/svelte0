@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { nps } from '../data.js';
+import { nps } from '$lib/data.js';
 
 export function load({ params }) {
 	const post = nps.find((post) => post.code === params.code);

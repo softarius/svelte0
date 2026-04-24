@@ -1,4 +1,4 @@
-import { nps } from './data'; 
+import { nps } from '$lib/data'; 
 
 export function load() {
 	return {
