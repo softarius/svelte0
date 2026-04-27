@@ -6,15 +6,18 @@
 	<main>
 		{@render children()}
 	</main>
+
 	<aside>
 		<h2>Все направления:</h2>
-		<ul>
-			{#each data.nps as { code, name }}
-				<li>
-					<a href="/schola/np/{code}">{code} {name}</a>
-				</li>
-			{/each}
-		</ul>
+		<div class="dropdown">
+			<ul>
+				{#each data.nps as { code, name }}
+					<li class="dropdown-item">
+						<a href="/schola/np/{code}">{code} {name}</a>
+					</li>
+				{/each}
+			</ul>
+		</div>
 	</aside>
 </div>
 

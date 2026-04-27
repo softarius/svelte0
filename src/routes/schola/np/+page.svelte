@@ -13,7 +13,7 @@
 	</tr>
 {/snippet}
 
-<table class="table table bordered">
+<table class="table table-sm table-bordered table-hover">
 	<thead>
 		<tr>
 			<th>Код</th>
